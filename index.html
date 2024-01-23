@@ -13,42 +13,55 @@
 
 <body>
   <div class="sidebar">
-    <nav class="sidebar_navigation">
+    <nav class="sidebar__navigation">
       <div class="logo">
         <a href="">
           <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
         </a>
       </div>
-      <div class="menu">
-        <ul>
-          <li>
-            <a href="">
-              <span class="fa fa-home"></span>
-              <span>Início</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span class="fa fa-search"></span>
-              <span>Buscar</span>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <a href="">
+            <span class="fa fa-home"></span>
+            <span>Início</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <span class="fa fa-search"></span>
+            <span>Buscar</span>
+          </a>
+        </li>
+      </ul>
     </nav>
-    <div class="biblioteca">
-      <h2>Sua biblioteca</h2>
-      <div class="playlist">
-        <h3>Crie sua primeira playlist</h3>
-        <span>É fácil, vamos te ajudar.</span>
-        <button>Criar playlist</button>
+    <div class="library">
+      <div class="library__content">
+        <button class="library__button">
+          <span class="fa fas fa-book"></span>
+          <span>Sua biblioteca</span>
+        </button>
+        <span class="fa fa-plus"></span>
       </div>
+
+      <section class="section-playlist">
+        <div class="section-playlist__content">
+          <span class="text title">Crie sua primeira playlist</span>
+          <span class="text subTitle">É fácil, vamos te ajudar.</span>
+          <button class="section-playlist__button">
+            <span>Criar playlist</span>
+          </button>
+        </div>
+      </section>
       <div class="cookies">
-        <span>Cookies</span>
-        <button>Português do Brasil</button>
+        <a href="#">Cookies</a>
+      </div>
+      <div class="languages">
+        <button class="languages__button">
+          <span class="fa fa-globe"></span>
+          <span>Português do Brasil</span>
+        </button>
       </div>
     </div>
-  </div>
   </div>
 </body>
 
